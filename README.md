@@ -6,3 +6,6 @@ $ git clone https://github.com/ayang3/blog-post-app.git
 $ cd blog-post-app
 $ npm install
 $ npm start
+
+Please also install the following libraries:
+$npm install --save react-router-dom@4.0.0
