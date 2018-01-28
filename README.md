@@ -9,3 +9,4 @@ $ npm start
 
 Please also install the following libraries:
 $npm install --save react-router-dom@4.0.0
+$npm install --save axios redux-promise
