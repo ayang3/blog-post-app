@@ -7,6 +7,7 @@ export default function(state = {}, action) {
     case FETCH_POSTS:
         //consle.log(action.payload.data); // [post1, post2]
         return _.mapKeys(action.payload.data, 'id');
+    
     default:
         return state;
     }
